@@ -8,25 +8,25 @@
 //   console.log(Array);
 // }
 
+// } else if ((numValue === "1") || (numValue === "11")) {
+//   return "Beep!"
+// } else if ((numValue === "0") || (numValue === "10")) {
+//   return "Boop!"
+
 function numSwap(num) {
   var numValue = num.toString()
   if ((num !== 0) && (num % 3 == 0)) {
-    return "I'm sorry, Dave. I'm afraid I can't do that.";
+    return "I'm sorry Dev I can't do that";
   } else if (numValue.includes("1")) {
-    return "Beep!"
+    return "BEEP";
   } else if (numValue.includes("0")) {
-    return "Boop!"
-
-GET THIS THING TO WORK WHNE BACK FROM LUNCH, NOT READING "1's and 0's"
-  // } else if ((numValue === "1") || (numValue === "11")) {
-  //   return "Beep!"
-  // } else if ((numValue === "0") || (numValue === "10")) {
-  //   return "Boop!"
+    return "BOOP";
   } else {
     return num;
   }
   console.log(numValue);
 }
+
 
 function translateToRobot(num) {
   var array = []
@@ -47,7 +47,7 @@ $(document).ready(function() {
     var result = translateToRobot(parseInt($("input#number").val()));
     console.log(result)
     console.log(valueSwap);
-
+    $("#robot").fadeIn(result);
     $("#roboOutput").text(result);
 
   });

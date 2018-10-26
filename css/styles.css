@@ -1,0 +1,15 @@
+.jumbotron {
+  background-color: slategrey;
+}
+
+#roboOutput {
+  font-weight: 200;
+  font-family: Courier;
+}
+
+#robot {
+  display: none;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+}
