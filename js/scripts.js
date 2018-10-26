@@ -9,23 +9,24 @@
 // }
 
 function checkForZero(num) {
-  if (num === 0 || num % 3 === 0) {
-    return "no";
-  } else {
-    var userNumber = num.toString("1");
-    console.log(userNumber)
-  }
-};
+  var numValue = num
+  if ((num !== 0) && (num % 3 == 0)) {
+    return "Not a number!";
+  } else if (numValue === 1) {
+      return "Beep!"
+    } else if (numValue === 0) {
+      return "Boop!"
+    } else {
+      return num;
+  console.log(numValue);
+}
+}
 
 // User Interface Logic
 $(document).ready(function() {
   $("#userInput").submit(function(event) {
-    checkForZero($("input#number").val(),
-
-  checkForZero.parseInt($("input#number").val())),
-
-     $("#Output").text();
-
-     event.preventDefault();
+    event.preventDefault();
+    var result = checkForZero(parseInt($("input#number").val()));
+    console.log(result)
   });
 });
