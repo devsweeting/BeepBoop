@@ -1,19 +1,7 @@
+
 // Business logic
-//
-// function Count (num) {
-//   var Array = [];
-//   for (var i = 0; i < num.length; i++) {
-//     Array.push(num[i]);
-//   }
-//   console.log(Array);
-// }
 
-// } else if ((numValue === "1") || (numValue === "11")) {
-//   return "Beep!"
-// } else if ((numValue === "0") || (numValue === "10")) {
-//   return "Boop!"
-var letters = ["a", "b", "c", "d"]
-
+// var letters = ["a", "b", "c", "d"]
 function numSwap(num) {
   var numValue = num.toString()
   if ((num !== 0) && (num % 3 == 0)) {
@@ -55,3 +43,19 @@ $(document).ready(function() {
 
   });
 });
+
+
+
+//
+// function Count (num) {
+//   var Array = [];
+//   for (var i = 0; i < num.length; i++) {
+//     Array.push(num[i]);
+//   }
+//   console.log(Array);
+// }
+
+// } else if ((numValue === "1") || (numValue === "11")) {
+//   return "Beep!"
+// } else if ((numValue === "0") || (numValue === "10")) {
+//   return "Boop!"
