@@ -13,15 +13,11 @@ Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do
 
 ## Project Specs
 
-* Program breaks down the inputted number into an array
-  Example Input: 10
-  Example Output: [0, 1, 2 , 3, 4, 5, 6, 7, 8, 9, 10]
-
-* Program replaces all 0 with "Beep!"
+* Program replaces all numbers with 0 with "Beep!"
   Example input: 0
   Example Output: ["Beep!"]
 
-* Program replaces all 1's with "Boop!"
+* Program replaces all numbers with 1's with "Boop!"
     Example input: 1
     Example Output: ["Boop!"]
 
@@ -29,31 +25,36 @@ Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do
   Example input: "3"
   Example Output: (I'm sorry Dave I just can't do that)
 
+* Program breaks down the inputted number into an array
+    Example Input: 10
+    Example Output: [0, 1, 2 , 3, 4, 5, 6, 7, 8, 9, 10]
+
+* Program will run through the counting array with rules (2-3)
+  Example input: 4
+  Example output: [Beep, Boop, "i'm sorry Dave I jsut can't do that", 4 ,5]
+
+* Program will take the converted array and give it back to the user as Robo translated.
+
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _ download from https://github.com/devsweeting/BeepBoop.git
+* _ open in text editor
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+this program functions appropriately. It will not give any feedback for nonnumerical characters. and if you put too large of a number (i.e 98371109283091), it will break.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Contact me at devinsweeting@gmail.com
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+languages used we HTML, CSS, JS, bootstrap & Jquery. Text editor Atom was used.
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+open source
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 Devin Sweeting
