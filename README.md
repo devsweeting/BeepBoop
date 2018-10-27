@@ -25,15 +25,15 @@ Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do
   Example input: "3"
   Example Output: (I'm sorry Dave I just can't do that)
 
-* Program breaks down the inputted number into an array
+* Program breaks down the inputted number into an array counting up to the inputted number
     Example Input: 10
     Example Output: [0, 1, 2 , 3, 4, 5, 6, 7, 8, 9, 10]
 
-* Program will run through the counting array with rules (2-3)
+* Program will run through the new array applying rules (1-3) to each element of the array
   Example input: 4
   Example output: [Beep, Boop, "i'm sorry Dave I jsut can't do that", 4 ,5]
 
-* Program will take the converted array and give it back to the user as Robo translated.
+* Program will take the converted array, push it to a string, and give it back to the user as Robo translated.
 
 
 ## Setup/Installation Requirements
